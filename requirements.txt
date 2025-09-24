@@ -1,0 +1,17 @@
+# Gestionnaire de mots de passe - dépendances
+
+# Librairie standard pour interface graphique (souvent déjà incluse avec Python, mais utile sur Linux)
+tk
+
+# Chiffrement et sécurité
+cryptography>=41.0.0
+
+# Copier/Coller dans le presse-papier
+pyperclip>=1.8.2
+
+# Optionnel (pour avoir des widgets plus modernes avec Tkinter)
+ttkbootstrap>=1.10.1
+
+# ⚠️ Tkinter n'est pas dispo sur pip.
+# Sous Ubuntu/Debian : sudo apt install python3-tk -y
+# Sous Windows/macOS : déjà inclus avec Python.
